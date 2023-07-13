@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Авторизированный сервис CPS</title>
     <link rel="stylesheet" href="mainpage.css">
 </head>
@@ -9,24 +10,61 @@
     <header>
         <nav class="menu">
             <div class="menu__sidebar-icon">
-                <img src="\.header\burger.svg" alt="Боковая панель">
+                <a href="#">
+                    <img src="\.header\burger.svg" alt="Боковая панель">
+                </a>
             </div>
             <div class="menu__logo">
                 <img src="\.header\logo.svg" alt="Лого CPS">
             </div>
             <div class="menu__divider">
-
             </div>
             <div class="menu__repair-icon">
-                <img src="\.header\repair.svg" alt="">
+                <a href="#">
+                    <img src="\.header\repair.svg" alt="">
+                </a>
+
             </div>
             <div class="menu__check-status-icon">
-                <img src="\.header\checkstatus.svg" alt="">
+                <a href="#">
+                    <img src="\.header\checkstatus.svg" alt="">
+                </a>
             </div>
         </nav>
     </header>
     <main>
+        <div class="title">
+            <h1>Услуги и сервисы</h1>
+        </div>
 
+        <section class="slidebar">
+            <ul class="slidebar__list">
+                <li class="slidebar__gadgets">Ремонтируемые устройства</li>
+                <li class="slidebar__addService">Дополнительные услуги</li>
+                <li class="slidebar_price">Цены на услуги</li>
+                <li class="slidebar__adress">Адреса сервисных центров</li>
+                <li class="slidebar__specPrice">Специальные цены</li>
+                <li class="slidebar__revievs">Отзывы</li>
+            </ul>
+        </section>
+
+        <section class="content">
+            <article class="content__block">
+                <p class="content__text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+
+                <div class="content__read-more">
+                    <div class="content__read-more-icon">
+                        <img src="\.header\expand.svg" alt="Читать далее">
+                    </div>
+                    <div class="content__read-more-text">
+                        Читать Далее
+                    </div>
+                </div>
+            </article>
+            <div class="picture">
+                <img src="\.header\_MG_3223.jpg" alt="Фото вывески CPS">
+            </div>
+        </section>
     </main>
 </body>
 </html>
