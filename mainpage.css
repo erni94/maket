@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    min-height: 88px;
+    gap: 17px;
+}
+
+.menu__divider{
+    background-color: #eaeaea;
+    border-radius: 1px;
+    height: 32px;
+    margin-left: 16px;
+    margin-top: 0;
+    width: 2px;
+}
